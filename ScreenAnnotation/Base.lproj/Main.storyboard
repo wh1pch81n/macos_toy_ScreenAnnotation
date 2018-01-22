@@ -34,10 +34,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </view>
+                    <connections>
+                        <outlet property="clearButton" destination="XSw-2R-CYG" id="5dx-0p-GXJ"/>
+                        <outlet property="optionsMenu" destination="F3M-fB-QI6" id="eZw-Gg-igo"/>
+                        <outlet property="toggleButton" destination="4hy-fx-lrW" id="ph8-dv-u8v"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <menu id="F3M-fB-QI6">
+                    <items>
+                        <menuItem title="Clear" id="XSw-2R-CYG" userLabel="Clear">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="clearButtonClicked:" target="XfG-lQ-9wD" id="6Kf-eM-dAw"/>
+                            </connections>
+                        </menuItem>
+                        <menuItem title="Toggle" id="4hy-fx-lrW" userLabel="Toggle">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="toggleButtonClicked:" target="XfG-lQ-9wD" id="AUI-yf-Jmj"/>
+                            </connections>
+                        </menuItem>
+                        <menuItem isSeparatorItem="YES" id="p70-zS-sem"/>
+                        <menuItem title="Quit" id="1C7-O9-rli" userLabel="Quit">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="terminate:" target="rPt-NT-nkU" id="v32-uy-ySd"/>
+                            </connections>
+                        </menuItem>
+                    </items>
+                </menu>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="75" y="699"/>
         </scene>
     </scenes>
 </document>
