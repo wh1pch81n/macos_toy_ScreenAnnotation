@@ -13,6 +13,7 @@
 		22895F2620167F7300845986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22895F2420167F7300845986 /* Main.storyboard */; };
 		22895F3220167F7300845986 /* ScreenAnnotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22895F3120167F7300845986 /* ScreenAnnotationTests.swift */; };
 		22895F3D20167F7300845986 /* ScreenAnnotationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22895F3C20167F7300845986 /* ScreenAnnotationUITests.swift */; };
+		22895F4B201680DE00845986 /* ClearWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22895F4A201680DE00845986 /* ClearWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		22895F3820167F7300845986 /* ScreenAnnotationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenAnnotationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22895F3C20167F7300845986 /* ScreenAnnotationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenAnnotationUITests.swift; sourceTree = "<group>"; };
 		22895F3E20167F7300845986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22895F4A201680DE00845986 /* ClearWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				22895F1E20167F7300845986 /* AppDelegate.swift */,
 				22895F2020167F7300845986 /* ViewController.swift */,
+				22895F4A201680DE00845986 /* ClearWindow.swift */,
 				22895F2220167F7300845986 /* Assets.xcassets */,
 				22895F2420167F7300845986 /* Main.storyboard */,
 				22895F2720167F7300845986 /* Info.plist */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22895F4B201680DE00845986 /* ClearWindow.swift in Sources */,
 				22895F2120167F7300845986 /* ViewController.swift in Sources */,
 				22895F1F20167F7300845986 /* AppDelegate.swift in Sources */,
 			);
